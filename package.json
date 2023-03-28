@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "format": "npx dprint fmt",
+    "format:diff": "npx dprint fmt --diff"
   },
   "dependencies": {
     "react": "^18.2.0",
